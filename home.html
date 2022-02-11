@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: url('pexels-andrea-piacquadio-3757954.jpg');
+        background-size: 1280px;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 28px;
+        top: 14px;
+    }
+
+    .left img {
+        display: inline-block;
+        width: 75px;
+        position: absolute;
+        left: -2px;
+        top: -8px;
+    }
+
+    .left .iconame1 {
+        display: inline-block;
+        font-size: 25px;
+        position: absolute;
+        left: 80px;
+        top: 2px;
+    }
+
+    .left .iconame2 {
+        display: inline-block;
+        font-size: 25px;
+        position: absolute;
+        left: 80px;
+        top: 28px;
+    }
+
+    .left .iconame3 {
+        font-family: 'Trebuchet MS', sans-serif;
+        display: inline-block;
+        width: 262px;
+        font-size: 13px;
+        position: absolute;
+        left: 0px;
+        top: 38px;
+        text-align: left;
+        margin: 19px 8px;
+        color: #635d5d;
+    }
+
+
+    .right {
+        /* border: 2px solid yellow; */
+        display: inline-block;
+        position: absolute;
+        right: 28px;
+        top: 14px;
+    }
+
+    .right {
+        color: white;
+        display: inline-block;
+        position: absolute;
+        right: 6px;
+        top: 6px;
+    }
+
+    .right .conbtn {
+        font-family: 'Montserrat Alternates', sans-serif;
+        ;
+        color: #635d5d;
+        background-color: #a7999903;
+        border: 1px #a7999903;
+        border-radius: 22px;
+        margin: 2px 2px;
+        padding: 2px 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .conbtn:hover {
+        background-color: #00000026;
+    }
+
+
+    .nav {
+        /* border: 2px solid red; */
+        display: block;
+        width: 605px;
+        text-align: center;
+        margin: -3px auto;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 1px 18px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: #635d5d;
+        text-decoration: underline;
+    }
+
+    .container {
+        border: 2px solid black;
+        width: 33%;
+        margin: 130px 48px;
+        padding: 26px 20px;
+        border-radius: 23px;
+
+    }
+
+    .form-group input {
+        text-align: left;
+        display: block;
+        width: 333px;
+        padding: 2px 2px;
+        margin: 2px auto;
+        border: 2px solid black;
+
+    }
+
+    .container .formbutton1 {
+        display: inline-block;
+        position: relative;
+        width: 85px;
+        left: 114px;
+        top: 6px;
+    }
+    .container .formbutton2{
+        display: inline-block;
+        position: relative;
+        width: 85px;
+        left: 114px;
+        top: 6px;
+    }
+</style>
+
+<body>
+    <div class="left">
+        <img src="iconfinder_Sports_and_Fitness_dumbell_fitness_6622990.png" alt="logo">
+        <div class="iconame1">Harsh</div>
+        <div class="iconame2">Fitness</div>
+        <div class="iconame3">Gymnasium | Spa | Yoga </div>
+    </div>
+    <div class="nav">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Prime</a></li>
+            <li><a href="#">Branches</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <a href="9557195550">
+            <button class="conbtn">
+                Call Us
+            </button>
+        </a>
+        <a href="mailto:kashiwalharsh1234@gmail.com">
+            <button class="conbtn">Email Us</button>
+        </a>
+
+    </div>
+    <div class="container">
+        <h3>Join the best Fitness Club in Dehradun!!</h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Phone Number">
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Enter your Email">
+            </div>
+            <button class="formbutton1">
+                Submit
+            </button>
+            <button class="formbutton2" type="reset">
+                Reset
+            </button>
+        </form>
+    </div>
+</body>
+
+</html>
